@@ -1,0 +1,13 @@
+body {
+  font-family: "Courier Prime", monospace;
+}
+.block {
+  width: 20%;
+  text-align: center;
+  margin: 10px auto;
+  border: 2px solid rgb(149, 132, 170);
+  padding: 10px;
+}
+.header {
+  background-color: #cbf3f0;
+}
