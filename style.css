@@ -19,9 +19,13 @@ body {
 }
 .row {
   display: inline-block;
-  width: 33%;
+  width: 20%;
+  padding: 10px;
   text-align: center;
-  margin: auto;
+  margin: 50px 125px;
+  background-color: rgb(213, 176, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(165, 165, 165);
 }
 .parent {
   font-size: 20px;
