@@ -14,25 +14,23 @@ body {
   width: 20%;
   text-align: center;
   margin: 10px auto;
-  padding: 10px;
+  padding: 20px;
   background-color: #cbf3f0;
+  border-radius: 50px;
+  font-size: 10em;
 }
-.row {
-  display: inline-block;
-  width: 20%;
-  padding: 10px;
+
+.parent {
+  font-size: 10em;
+  display: flex;
   text-align: center;
+  justify-content: space-between;
+}
+
+.row {
+  background-color: rgb(239, 224, 248);
+  padding: 10px;
   margin: 50px 125px;
-  background-color: rgb(213, 176, 255);
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-}
-.parent {
-  font-size: 20px;
-}
-h2 {
-  margin: 1rem;
-}
-.em-size {
-  font-size: 10em;
 }
