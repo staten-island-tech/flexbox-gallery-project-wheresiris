@@ -20,17 +20,20 @@ body {
   font-size: 10em;
 }
 
-.parent {
+.gallery {
   font-size: 10em;
   display: flex;
   text-align: center;
   justify-content: space-between;
+  height: 100vh;
+  background-color: hotpink;
 }
 
-.row {
+/* .card {
   background-color: rgb(239, 224, 248);
   padding: 10px;
   margin: 50px 125px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
 }
+ */
