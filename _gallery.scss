@@ -1,38 +1,38 @@
 .gallery-parent {
-    //text-align: center;
-    margin: 0 auto;
-    //width: 60rem;
-    height: 60rem;
-    width: 40rem;
-  }
-  .gallery {
-    position: relative;
-  }
-  .demo-photo {
-    height: 20rem;
-    position: absolute;
-    transition: all 0.3s;
-    outline-offset: 1rem;
-  }
-  .cake {
-    top: 13rem;
-    left: 6rem;
-  }
-  .cheese {
-    top: 20rem;
-    right: -20rem;
-  }
-  .pizza {
-    top: 4rem;
-    left: 65%;
-  }
-  .demo-photo:hover {
-    transform: scale(1.1);
-    outline: 1rem solid #222;
-    z-index: 2;
-  }
-  .gallery:hover .demo-photo:not(:hover) {
-    //:not(:hover) causes an effect when another element in the gallery class is being hovered over. if something outside of gallery is being hovered over then there will be no effect caused by :not(:hover).
-    transform: scale(0.5);
-    opacity: 0.3;
-  }
+  //text-align: center;
+  margin: 0 auto;
+  //width: 60rem;
+  height: 60rem;
+  width: 40rem;
+}
+.gallery {
+  position: relative;
+}
+.demo-photo {
+  height: 20rem;
+  position: absolute;
+  transition: all 0.3s;
+  outline-offset: 1rem;
+}
+.cake {
+  top: 13rem;
+  left: 6rem;
+}
+.cheese {
+  top: 20rem;
+  right: -20rem;
+}
+.pizza {
+  top: 4rem;
+  left: 65%;
+}
+.demo-photo:hover {
+  transform: scale(1.1);
+  outline: 1rem solid #222;
+  z-index: 2;
+}
+.gallery:hover .demo-photo:not(:hover) {
+  //:not(:hover) causes an effect when another element in the gallery class is being hovered over. if something outside of gallery is being hovered over then there will be no effect caused by :not(:hover).
+  transform: scale(0.5);
+  opacity: 0.3;
+}

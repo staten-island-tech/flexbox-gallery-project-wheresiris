@@ -1,4 +1,4 @@
-/* html,
+html,
 body,
 * {
   padding: 0;
@@ -42,6 +42,9 @@ body {
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   padding: 15px;
   background: linear-gradient(rgb(166, 112, 253), rgb(130, 109, 248));
+}
+#astra:hover {
+  transform: scale(1.25);
 }
 
 #reyna {
@@ -99,14 +102,13 @@ body {
   padding: 15px;
   background: linear-gradient(to bottom, rgb(219, 217, 181), rgb(104, 92, 79));
 }
- */
 
- html {
+html {
   margin: 0;
   padding: 0;
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .gallery-parent {
@@ -144,14 +146,14 @@ body {
 
 .demo-photo:hover {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   outline: 1rem solid #222;
   z-index: 2;
 }
 
 .gallery:hover .demo-photo:not(:hover) {
   -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  transform: scale(0.5);
   opacity: 0.3;
 }
 
@@ -165,5 +167,5 @@ body {
 
 .form:hover {
   -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  transform: scale(1.3);
 }
