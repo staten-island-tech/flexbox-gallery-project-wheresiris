@@ -42,6 +42,7 @@ body {
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   padding: 15px;
   background: linear-gradient(rgb(166, 112, 253), rgb(130, 109, 248));
+  transition: all 0.3s;
 }
 #astra:hover {
   transform: scale(1.25);
@@ -53,6 +54,9 @@ body {
   padding: 15px;
   background: linear-gradient(rgb(255, 183, 255), rgb(255, 114, 255));
 }
+#reyna:hover {
+  color: black;
+}
 
 #jett {
   border-radius: 10px;
@@ -60,12 +64,16 @@ body {
   padding: 15px;
   background: linear-gradient(rgb(213, 242, 255), rgb(146, 184, 255));
 }
+#jett:hover {
+}
 
 #sage {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   padding: 15px;
   background: linear-gradient(to bottom, rgb(209, 252, 243), rgb(85, 252, 230));
+}
+#sage:hover {
 }
 
 #omen {
