@@ -55,7 +55,7 @@ body {
   background: linear-gradient(rgb(255, 183, 255), rgb(255, 114, 255));
 }
 #reyna:hover {
-  color: black;
+  color: ;
 }
 
 #jett {
@@ -170,7 +170,7 @@ html {
 }
 
 .button {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .form:hover {
