@@ -9,15 +9,29 @@ body,
 body {
   font-family: "Loved by the King", cursive;
 }
-
+img {
+  width: 100%;
+}
 .header {
   width: 30%;
   text-align: center;
   margin: 20px auto;
   padding: 20px;
-  background-color: #ade9e5;
-  border-radius: 50px;
+  background-color: #cbf3f0;
+  border-radius: 25px;
   font-size: 10em;
+
+  animation: fadein linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .parent {
@@ -32,15 +46,16 @@ body {
 }
 
 .card {
+  width: fit-content;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   padding: 15px;
+  align-content: center;
 }
 
 #astra {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(rgb(166, 112, 253), rgb(130, 109, 248));
   transition: all 0.3s;
 }
@@ -52,26 +67,22 @@ body {
 #reyna {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(rgb(255, 183, 255), rgb(255, 114, 255));
 }
 #reyna:hover {
   background: rgb(200, 100, 200);
+  transform: perspective();
 }
 
 #jett {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(rgb(213, 242, 255), rgb(146, 184, 255));
-}
-#jett:hover {
 }
 
 #sage {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(to bottom, rgb(209, 252, 243), rgb(85, 252, 230));
 }
 #sage:hover {
@@ -82,21 +93,18 @@ body {
 #omen {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(to bottom, rgb(155, 162, 255), rgb(50, 122, 255));
 }
 
 #viper {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(to bottom, rgb(144, 251, 111), rgb(25, 202, 78));
 }
 
 #sova {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(to bottom, rgb(173, 251, 255), rgb(65, 170, 255));
 }
 #sova:hover {
@@ -106,14 +114,12 @@ body {
 #skye {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(to bottom, rgb(129, 184, 85), rgb(9, 122, 53));
 }
 
 #cypher {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
-  padding: 15px;
   background: linear-gradient(to bottom, rgb(219, 217, 181), rgb(104, 92, 79));
 }
 #cypher:hover {
@@ -122,5 +128,41 @@ body {
   background: rgb(146, 151, 146);
 }
 
-@media all and (min-width: 500px) {
+@media screen and (max-width: 800px) {
+  .parent {
+    height: fit-content;
+    font-size: 5em;
+  }
+  .card {
+    width: 20%;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  .header {
+    font-size: 5em;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parent {
+    height: fit-content;
+    font-size: 3em;
+  }
+  .card {
+    width: 20%;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    padding: 8px;
+  }
+  .header {
+    font-size: 5em;
+    width: 60%;
+    border-radius: 10px;
+  }
 }
