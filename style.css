@@ -21,8 +21,8 @@ img {
   border-radius: 25px;
   font-size: 10em;
 
-  animation: fadein linear 7s;
-  -webkit-animation: fadeIn linear 7s;
+  animation: fadein linear 5s;
+  -webkit-animation: fadeIn linear 5s;
 }
 
 @-webkit-keyframes fadeIn {
@@ -71,7 +71,7 @@ img {
 }
 #reyna:hover {
   background: rgb(200, 100, 200);
-  transform: perspective();
+  transition: background-color 2s ease-out 100ms;
 }
 
 #jett {
@@ -86,8 +86,8 @@ img {
   background: linear-gradient(to bottom, rgb(209, 252, 243), rgb(85, 252, 230));
 }
 #sage:hover {
-  background: rgb(100, 200, 150);
-  transform: skew(10deg);
+  background: rgb(64, 245, 184);
+  transform: skew(-5deg);
 }
 
 #omen {
