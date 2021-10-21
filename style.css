@@ -19,10 +19,10 @@ img {
   padding: 20px;
   background-color: #cbf3f0;
   border-radius: 25px;
-  font-size: 10em;
+  font-size: 8em;
 
-  animation: fadein linear 5s;
-  -webkit-animation: fadeIn linear 5s;
+  animation: fadein linear 3s;
+  -webkit-animation: fadeIn linear 3s;
 }
 
 @-webkit-keyframes fadeIn {
@@ -57,7 +57,7 @@ img {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(rgb(166, 112, 253), rgb(130, 109, 248));
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 #astra:hover {
   transform: scale(1.25);
@@ -70,7 +70,7 @@ img {
   background: linear-gradient(rgb(255, 183, 255), rgb(255, 114, 255));
 }
 #reyna:hover {
-  background: rgb(200, 100, 200);
+  background: rgb(235, 134, 235);
   transition: background-color 2s ease-out 100ms;
 }
 
@@ -79,11 +79,16 @@ img {
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(rgb(213, 242, 255), rgb(146, 184, 255));
 }
+#jett:hover {
+  background: rgb(146, 201, 224);
+  transition: background-color 2s ease-in 100ms;
+}
 
 #sage {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(to bottom, rgb(209, 252, 243), rgb(85, 252, 230));
+  transition: all 0.5s;
 }
 #sage:hover {
   background: rgb(64, 245, 184);
@@ -95,35 +100,48 @@ img {
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(to bottom, rgb(155, 162, 255), rgb(50, 122, 255));
 }
+#omen:hover {
+  background: rgb(129, 139, 202);
+  transition: background-color 2s ease-out 100ms;
+}
 
 #viper {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(to bottom, rgb(144, 251, 111), rgb(25, 202, 78));
 }
+#viper:hover {
+  background: rgb(142, 221, 110);
+  transition: background-color 2s ease-out 100ms;
+}
 
 #sova {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(to bottom, rgb(173, 251, 255), rgb(65, 170, 255));
+  transition: all 2s;
 }
 #sova:hover {
   transform: rotate(0.5turn);
-  background: rgb(82, 127, 172);
+  background: rgb(73, 121, 170);
 }
 #skye {
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   background: linear-gradient(to bottom, rgb(129, 184, 85), rgb(9, 122, 53));
 }
+#skye:hover {
+  background: rgb(114, 143, 66);
+  transition: background-color 2s ease-out 100ms;
+}
 
 #cypher {
   border-radius: 10px;
-  box-shadow: 10px 10px 10px rgb(165, 165, 165);
+  box-shadow: 10px 10px 10px rgb(240, 240, 240);
   background: linear-gradient(to bottom, rgb(219, 217, 181), rgb(104, 92, 79));
 }
 #cypher:hover {
-  transition-duration: 1s;
+  transition-duration: 2s;
   transform: translate(-50%, -100%);
   background: rgb(146, 151, 146);
 }
