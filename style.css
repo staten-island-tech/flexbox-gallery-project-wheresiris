@@ -146,7 +146,7 @@ img {
   background: rgb(146, 151, 146);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .parent {
     height: fit-content;
     font-size: 5em;
@@ -155,7 +155,7 @@ img {
     width: 20%;
     padding: 10px;
     justify-content: space-evenly;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
   }
   .header {
     font-size: 5em;
@@ -166,7 +166,7 @@ img {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media all screen and (min-width: 400px) {
   .parent {
     height: fit-content;
     font-size: 3em;
