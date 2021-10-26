@@ -9,17 +9,14 @@ body,
 body {
   font-family: "Loved by the King", cursive;
 }
-img {
-  width: 100%;
-}
 .header {
-  width: 30%;
+  width: 40%;
   text-align: center;
   margin: 20px auto;
   padding: 20px;
   background-color: #cbf3f0;
   border-radius: 25px;
-  font-size: 8em;
+  font-size: 5em;
 
   animation: fadein linear 3s;
   -webkit-animation: fadeIn linear 3s;
@@ -35,22 +32,25 @@ img {
 }
 
 .parent {
-  font-size: 10em;
+  font-size: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-around;
-  height: 400px;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 .card {
-  width: fit-content;
+  width: 20%;
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgb(165, 165, 165);
   padding: 15px;
   align-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
 #astra {
@@ -147,40 +147,25 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-  .parent {
-    height: fit-content;
-    font-size: 5em;
+  .header {
+    width: 50%;
   }
   .card {
-    width: 20%;
-    padding: 10px;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-  }
-  .header {
-    font-size: 5em;
-    width: 60%;
-    border-radius: 10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 25%;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .parent {
-    height: 200px;
-    font-size: 3em;
+@media screen and (max-width: 600px) {
+  .header {
+    width: 50%;
   }
   .card {
-    width: 20%;
-    padding: 10px;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-    padding: 8px;
+    width: 80%;
   }
-  .header {
-    font-size: 5em;
-    width: 60%;
-    border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+  .card {
+    font-size: 30px;
+    width: 80%;
   }
 }
